@@ -52,7 +52,7 @@ admin.site.register(MatchResult, MatchResultAdmin)
 
 
 class MatchAdmin(admin.ModelAdmin):
-    list_display = ('league', 'home_team_odds', 'away_team_odds', 'match_date', 'match_time',
+    list_display = ('league', 'get_home_team_name', 'home_team_odds', 'get_away_team_name', 'away_team_odds', 'match_date', 'match_time',
                     'prediction', 'result')
     search_fields = ('league', 'match_date')
 

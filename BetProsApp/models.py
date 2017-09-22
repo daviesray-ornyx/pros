@@ -75,6 +75,9 @@ class Club(models.Model):
     stadium = models.CharField(verbose_name='Stadium', max_length=250, blank=True, null=True)
     country = models.ForeignKey(Country, verbose_name='Country', blank=True, null=True)
 
+    def __str__(self):
+        return self.name
+
     def get_league(self):
         return self.league.name
 
@@ -108,10 +111,16 @@ class Match(models.Model):
     complete = models.BooleanField(verbose_name='Complete', blank=False, null=False, default=False)
 
     def __str__(self):
-        return 'Something is to be here!!'
+        return self.get_prediction_name()
 
     def get_league(self):
         return self.league.name
+
+    def get_home_team_name(self):
+        return self.home_team.name
+
+    def get_away_team_name(self):
+        return self.away_team.name
 
     def get_prediction_name(self):
         return self.prediction.name
