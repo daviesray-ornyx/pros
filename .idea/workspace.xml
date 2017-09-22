@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44aef343-586e-4278-a661-3157cc44a6f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/login.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +40,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plain_page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plain_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="-115">
+              <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -209,12 +209,12 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c3ce0cee-d58b-49ff-9eef-cb4113f8e961/console_1.sql" />
         <option value="$PROJECT_DIR$/BetProsApp/views.py" />
         <option value="$PROJECT_DIR$/BetProsApp/static/build/js/custom.js" />
-        <option value="$PROJECT_DIR$/BetProsApp/templates/login.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/base_site.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/footer.html" />
         <option value="$PROJECT_DIR$/BetPros/settings.py" />
         <option value="$PROJECT_DIR$/BetPros/wsgi.py" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" />
+        <option value="$PROJECT_DIR$/BetProsApp/templates/login.html" />
       </list>
     </option>
   </component>
@@ -413,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506087974265</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed home title">
+      <created>1506088222632</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506088222632</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -510,7 +517,8 @@
     <MESSAGE value="Added .wsgi settings" />
     <MESSAGE value="Adding top navigaion." />
     <MESSAGE value="Added consistency to top navigation bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added consistency to top navigation bar" />
+    <MESSAGE value="Changed home title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed home title" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -961,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/fixtures/initial_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1027,6 +1027,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
           <folding />
         </state>
       </provider>
