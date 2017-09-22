@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44aef343-586e-4278-a661-3157cc44a6f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BetProsApp/static/images/sidebar_image.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/static/build/css/custom.css" afterPath="$PROJECT_DIR$/BetProsApp/static/build/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,19 +42,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plain_page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plain_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="58" column="113" lean-forward="false" selection-start-line="58" selection-start-column="113" selection-end-line="58" selection-end-column="113" />
+            <state relative-caret-position="126">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="25" />
               <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_site.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BetProsApp/templates/base_site.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="41" />
+              <folding>
+                <element signature="n#block#3;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,13 +114,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="4242" column="9" lean-forward="false" selection-start-line="4242" selection-start-column="1" selection-end-line="4242" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="110" column="12" lean-forward="true" selection-start-line="110" selection-start-column="12" selection-end-line="111" selection-end-column="91" />
+              <folding>
+                <element signature="n#!!block;n#init_login#0" expanded="false" />
+                <element signature="e#155543#156069#0" expanded="false" />
+                <marker date="1506112669325" expanded="true" signature="31671:31703" ph="..." />
+                <marker date="1506112669325" expanded="true" signature="33231:33238" ph="×" />
+                <marker date="1506112669325" expanded="true" signature="55618:55630" ph="..." />
               </folding>
             </state>
           </provider>
@@ -155,6 +197,8 @@
       <find>before</find>
       <find>hehe</find>
       <find>SIMPLTON - Based on Template by Colorlib</find>
+      <find>sidebar-menu</find>
+      <find>url</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -175,7 +219,6 @@
         <option value="$PROJECT_DIR$/BetProsApp/urls.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c3ce0cee-d58b-49ff-9eef-cb4113f8e961/console_1.sql" />
         <option value="$PROJECT_DIR$/BetProsApp/views.py" />
-        <option value="$PROJECT_DIR$/BetProsApp/static/build/js/custom.js" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/base_site.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/footer.html" />
         <option value="$PROJECT_DIR$/BetPros/settings.py" />
@@ -184,8 +227,10 @@
         <option value="$PROJECT_DIR$/BetProsApp/admin.py" />
         <option value="$PROJECT_DIR$/BetProsApp/models.py" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
-        <option value="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" />
+        <option value="$PROJECT_DIR$/BetProsApp/static/build/js/custom.js" />
+        <option value="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" />
+        <option value="$PROJECT_DIR$/BetProsApp/static/build/css/custom.css" />
       </list>
     </option>
   </component>
@@ -245,7 +290,7 @@
               <item name="BetPros" type="cbb8eebc:String" user="BetPros" />
               <item name="BetProsApp" type="cbb8eebc:String" user="BetProsApp" />
               <item name="static" type="cbb8eebc:String" user="static" />
-              <item name="images" type="cbb8eebc:String" user="images" />
+              <item name="build" type="cbb8eebc:String" user="build" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -481,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506108908380</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Removed your text message from gallary item">
+      <created>1506109097854</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1506109097854</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -500,7 +552,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6793893" sideWeight="0.5058824" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.4972549" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2977099" sideWeight="0.4943274" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28549618" sideWeight="0.49411765" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28549618" sideWeight="0.49411765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49923664" sideWeight="0.49411765" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19686274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -526,12 +578,12 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.4972549" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2977099" sideWeight="0.4943274" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28549618" sideWeight="0.49411765" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28549618" sideWeight="0.49411765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49923664" sideWeight="0.49411765" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19529411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19686274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21490195" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21490195" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,7 +642,8 @@
     <MESSAGE value="Still issues with table columnt widths. This is to be rectified soon." />
     <MESSAGE value="Modified sidebar to remove icon and extras text" />
     <MESSAGE value="Added gallery and images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gallery and images" />
+    <MESSAGE value="Removed your text message from gallary item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed your text message from gallary item" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="268" column="13" lean-forward="false" selection-start-line="268" selection-start-column="1" selection-end-line="268" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/templates/app/sidebar_copy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
@@ -953,16 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/base_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#block#3;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BetPros/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1050,24 +1086,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/app/media_gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="5176" column="14" lean-forward="false" selection-start-line="5176" selection-start-column="14" selection-end-line="5176" selection-end-column="14" />
+        <state relative-caret-position="365">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="249" selection-end-column="12" />
           <folding>
-            <element signature="n#!!block;n#init_login#0" expanded="false" />
-            <element signature="e#155543#156069#0" expanded="false" />
-            <marker date="1506062646083" expanded="true" signature="31671:31703" ph="..." />
-            <marker date="1506062646083" expanded="true" signature="33231:33238" ph="×" />
-            <marker date="1506062646083" expanded="true" signature="55618:55630" ph="..." />
+            <element signature="e#876#10892#0#HTML" expanded="false" />
+            <element signature="e#1854#10847#0#HTML" expanded="false" />
+            <element signature="e#1893#10828#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        <state relative-caret-position="159">
+          <caret line="110" column="12" lean-forward="true" selection-start-line="110" selection-start-column="12" selection-end-line="111" selection-end-column="91" />
+          <folding>
+            <element signature="n#!!block;n#init_login#0" expanded="false" />
+            <element signature="e#155543#156069#0" expanded="false" />
+            <marker date="1506112669325" expanded="true" signature="31671:31703" ph="..." />
+            <marker date="1506112669325" expanded="true" signature="33231:33238" ph="×" />
+            <marker date="1506112669325" expanded="true" signature="55618:55630" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="4242" column="9" lean-forward="false" selection-start-line="4242" selection-start-column="1" selection-end-line="4242" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1098,40 +1146,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/app/media_gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="249" selection-end-column="12" />
-          <folding>
-            <element signature="e#876#10892#0#HTML" expanded="false" />
-            <element signature="e#1854#10847#0#HTML" expanded="false" />
-            <element signature="e#1893#10828#0#HTML" expanded="false" />
-          </folding>
+        <state relative-caret-position="-115">
+          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="58" column="113" lean-forward="false" selection-start-line="58" selection-start-column="113" selection-end-line="58" selection-end-column="113" />
+        <state relative-caret-position="126">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="25" />
           <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="n#block#3;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
