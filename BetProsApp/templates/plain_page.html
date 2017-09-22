@@ -8,6 +8,40 @@
 
 {% block content %}
     <div class="right_col" role="main">
+
+        <div class="row tile_count">
+      <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-user"></i> Total Users</span>
+        <div class="count">250,000</div>
+        <span class="count_bottom"><i class="green"></i></span>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-clock-o"></i> Average Time</span>
+        <div class="count">134</div>
+        <span class="count_bottom"><i class="green">Days from Lauch</i> </span>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-calculator"></i> Total Predictions</span>
+        <div class="count green">3,548</div>
+        <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Month</span>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-calculator"></i> Total Wins</span>
+        <div class="count">3,246</div>
+        <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>12% </i> From last Week</span>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-calculator"></i> Total Losses</span>
+        <div class="count">302</div>
+        <span class="count_bottom"><i class="green"><i class="fa fa-sort-desc"></i>34% </i> From last Week</span>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-percent"></i> Win Rate</span>
+        <div class="count">91%</div>
+        <span class="count_bottom"> </span>
+      </div>
+    </div>
+
       <div class="container_prediction_tables">
           {% if popular_view %}
               <div class="popular_view">
