@@ -4,27 +4,27 @@
     {% if league.get_league_length > 0 %}
 
       <div class="x_title" style="background-color: #2A3F54;">
-        <h2>{{ league.name }}</h2>
+        <h2 style="width:100%;">{{ league.name }}</h2>
         <div class="clearfix"></div>
       </div>
       <div class="x_content">
           <table class="table table-striped" style="width:100%" >
 
               <tr>
-                  <th style="width:15%;">
+                  <th>
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"> Date</div>
                   </th>
-                  <th style="width: 15%;">
+                  <th>
                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"> Time</div>
                   </th>
-                  <th style="width:15%;">
+                  <th>
                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">Home Team</div>
                   </th>
-                  <th style="width: 15%;">
+                  <th>
                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">Visiting Team</div>
                   </th>
-                  <th style="width: 40%;">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">Prediction</div>
+                  <th>
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">Prediction</div>
                   </th>
               </tr>
               {% for match in matches %}
@@ -43,7 +43,7 @@
                             {{ match.away_team.name }}
                         </td>
 
-                        <td  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <td  class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
                             {% if match.get_prediction_name == "Home Win" %}
                                 {{ match.home_team.name }} ( {{ match.get_prediction_name }} )
                             {% elif match.get_prediction_name == "Draw" %}
