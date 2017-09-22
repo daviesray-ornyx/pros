@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44aef343-586e-4278-a661-3157cc44a6f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prediction_table.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prediction_table.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -85,6 +85,18 @@
                 <element signature="e#505#907#0" expanded="false" />
                 <element signature="e#941#1467#0" expanded="false" />
                 <element signature="e#2260#2907#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +149,6 @@
         <option value="$PROJECT_DIR$/BetProsApp/static/build/js/site.js" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/app/base_site.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c3ce0cee-d58b-49ff-9eef-cb4113f8e961/console.sql" />
-        <option value="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/top_navigation.html" />
         <option value="$PROJECT_DIR$/BetProsApp/urls.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c3ce0cee-d58b-49ff-9eef-cb4113f8e961/console_1.sql" />
@@ -152,6 +163,7 @@
         <option value="$PROJECT_DIR$/BetProsApp/admin.py" />
         <option value="$PROJECT_DIR$/BetProsApp/models.py" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
+        <option value="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" />
       </list>
     </option>
   </component>
@@ -420,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506106376446</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Still issues with table columnt widths. This is to be rectified soon.">
+      <created>1506106944254</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1506106944254</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -442,7 +461,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28549618" sideWeight="0.49411765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49923664" sideWeight="0.49411765" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19529411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19529411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21490195" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -526,7 +545,8 @@
     <MESSAGE value="Changed prediction header" />
     <MESSAGE value="Added Striped table styling" />
     <MESSAGE value="Adjusted prediction table column widths" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted prediction table column widths" />
+    <MESSAGE value="Still issues with table columnt widths. This is to be rectified soon." />
+    <option name="LAST_COMMIT_MESSAGE" value="Still issues with table columnt widths. This is to be rectified soon." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,14 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1052,6 +1064,16 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
