@@ -43,8 +43,8 @@
       <file leaf-file-name="plain_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="448">
+              <caret line="35" column="97" lean-forward="false" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506084303383</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding top navigaion.">
+      <created>1506087499985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506087499985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -494,7 +501,8 @@
     <MESSAGE value="Added fixtures and fixture settings." />
     <MESSAGE value="Fixing fixtures" />
     <MESSAGE value="Added .wsgi settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .wsgi settings" />
+    <MESSAGE value="Adding top navigaion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding top navigaion." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="448">
+          <caret line="35" column="97" lean-forward="false" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="97" />
           <folding />
         </state>
       </provider>
