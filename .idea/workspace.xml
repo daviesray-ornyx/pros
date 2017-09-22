@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44aef343-586e-4278-a661-3157cc44a6f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/admin.py" afterPath="$PROJECT_DIR$/BetProsApp/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/models.py" afterPath="$PROJECT_DIR$/BetProsApp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,17 +60,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/js/custom.js">
+      <file leaf-file-name="prediction_table.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="5176" column="14" lean-forward="false" selection-start-line="5176" selection-start-column="14" selection-end-line="5176" selection-end-column="14" />
+            <state relative-caret-position="42">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
               <folding>
-                <element signature="n#!!block;n#init_login#0" expanded="false" />
-                <element signature="e#155543#156069#0" expanded="false" />
-                <marker date="1506062646083" expanded="true" signature="31671:31703" ph="..." />
-                <marker date="1506062646083" expanded="true" signature="33231:33238" ph="×" />
-                <marker date="1506062646083" expanded="true" signature="55618:55630" ph="..." />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,79 +78,15 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BetProsApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="26" />
+            <state relative-caret-position="322">
+              <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#132#469#0" expanded="false" />
                 <element signature="e#505#907#0" expanded="false" />
                 <element signature="e#941#1467#0" expanded="false" />
-                <element signature="e#1502#2211#0" expanded="false" />
+                <element signature="e#2244#2891#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/local/lib/python2.7/site-packages/django/core/management/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="430" column="0" lean-forward="false" selection-start-line="430" selection-start-column="0" selection-end-line="431" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/local/lib/python2.7/site-packages/django/contrib/admin/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BetProsApp/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="54" column="79" lean-forward="false" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BetProsApp/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BetProsApp/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -204,7 +138,6 @@
         <option value="$PROJECT_DIR$/BetProsApp/static/build/js/site.js" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/app/base_site.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c3ce0cee-d58b-49ff-9eef-cb4113f8e961/console.sql" />
-        <option value="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/sidebar.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/top_navigation.html" />
         <option value="$PROJECT_DIR$/BetProsApp/urls.py" />
@@ -219,6 +152,7 @@
         <option value="$PROJECT_DIR$/BetProsApp/templates/login.html" />
         <option value="$PROJECT_DIR$/BetProsApp/models.py" />
         <option value="$PROJECT_DIR$/BetProsApp/admin.py" />
+        <option value="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
       </list>
     </option>
   </component>
@@ -272,6 +206,13 @@
               <item name="BetPros" type="cbb8eebc:String" user="BetPros" />
               <item name="BetProsApp" type="cbb8eebc:String" user="BetProsApp" />
               <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="BetPros" type="cbb8eebc:String" user="BetPros" />
+              <item name="BetProsApp" type="cbb8eebc:String" user="BetProsApp" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+              <item name="includes" type="cbb8eebc:String" user="includes" />
             </path>
           </expand>
           <select />
@@ -431,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506090696036</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed away team and home team names display">
+      <created>1506099078141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1506099078141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -530,7 +478,8 @@
     <MESSAGE value="Added consistency to top navigation bar" />
     <MESSAGE value="Changed home title" />
     <MESSAGE value="Changed about message on login page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed about message on login page." />
+    <MESSAGE value="Changed away team and home team names display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed away team and home team names display" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,20 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -901,22 +836,6 @@
     <entry file="file://$PROJECT_DIR$/BetProsApp/static/images/american-express.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/templates/app/index.html">
@@ -982,20 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="5176" column="14" lean-forward="false" selection-start-line="5176" selection-start-column="14" selection-end-line="5176" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#init_login#0" expanded="false" />
-            <element signature="e#155543#156069#0" expanded="false" />
-            <marker date="1506062646083" expanded="true" signature="31671:31703" ph="..." />
-            <marker date="1506062646083" expanded="true" signature="33231:33238" ph="×" />
-            <marker date="1506062646083" expanded="true" signature="55618:55630" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1022,20 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BetProsApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#132#469#0" expanded="false" />
-            <element signature="e#505#907#0" expanded="false" />
-            <element signature="e#941#1467#0" expanded="false" />
-            <element signature="e#1502#2211#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/local/lib/python2.7/site-packages/django/core/management/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1054,10 +945,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="239">
           <caret line="54" column="79" lean-forward="false" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/static/build/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="5176" column="14" lean-forward="false" selection-start-line="5176" selection-start-column="14" selection-end-line="5176" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#init_login#0" expanded="false" />
+            <element signature="e#155543#156069#0" expanded="false" />
+            <marker date="1506062646083" expanded="true" signature="31671:31703" ph="..." />
+            <marker date="1506062646083" expanded="true" signature="33231:33238" ph="×" />
+            <marker date="1506062646083" expanded="true" signature="55618:55630" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#132#469#0" expanded="false" />
+            <element signature="e#505#907#0" expanded="false" />
+            <element signature="e#941#1467#0" expanded="false" />
+            <element signature="e#2244#2891#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
