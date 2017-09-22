@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44aef343-586e-4278-a661-3157cc44a6f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BetProsApp/static/images/game1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BetProsApp/static/images/game3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BetProsApp/static/images/game4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BetProsApp/static/images/game5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BetProsApp/static/images/image2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" />
     </list>
@@ -48,8 +43,8 @@
       <file leaf-file-name="plain_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="102" column="93" lean-forward="false" selection-start-line="102" selection-start-column="93" selection-end-line="102" selection-end-column="93" />
+            <state relative-caret-position="92">
+              <caret line="58" column="113" lean-forward="false" selection-start-line="58" selection-start-column="113" selection-end-line="58" selection-end-column="113" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -479,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506107151457</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added gallery and images">
+      <created>1506108908380</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1506108908380</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -587,7 +589,8 @@
     <MESSAGE value="Adjusted prediction table column widths" />
     <MESSAGE value="Still issues with table columnt widths. This is to be rectified soon." />
     <MESSAGE value="Modified sidebar to remove icon and extras text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified sidebar to remove icon and extras text" />
+    <MESSAGE value="Added gallery and images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gallery and images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1119,8 +1122,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/templates/plain_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="102" column="93" lean-forward="false" selection-start-line="102" selection-start-column="93" selection-end-line="102" selection-end-column="93" />
+        <state relative-caret-position="92">
+          <caret line="58" column="113" lean-forward="false" selection-start-line="58" selection-start-column="113" selection-end-line="58" selection-end-column="113" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
