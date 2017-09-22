@@ -1,0 +1,38 @@
+{% extends "base_site.html" %}
+
+{% block title %} Plain Page {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock stylesheets %}
+
+{% block content %}
+    <div class="right_col" role="main">
+      <div class="container_prediction_tables">
+          {% if popular_view %}
+              <div class="popular_view">
+                  {% for league in leagues %}
+                    {% if league.get_league_length > 0 %}
+                      {% if league.in_popular_list %}
+                          {% include "includes/prediction_table.html" %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+              </div>
+          {% endif %}
+
+
+          <!-- If a specific option is selected, Only that table is displayed -->
+
+          <!-- Tables have to be generic and have the same layout with variable values filled!! -->
+
+        <div class="clearfix"></div>
+
+      </div>
+    </div>
+{% endblock content %}
+
+{% block javascripts %}
+  {{ block.super }}
+{% endblock javascripts %}
+

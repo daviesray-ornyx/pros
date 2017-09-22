@@ -1,0 +1,65 @@
+<div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="x_panel">
+      <div class="x_title">
+        <h2>{{ league.name }}</h2>
+        <ul class="nav navbar-right panel_toolbox">
+          <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="x_content">
+          <table class="" style="width:100%">
+
+              <tr>
+                  <th style="width:15%;">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> Date</div>
+                  </th>
+                  <th style="width: 15%;">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"> Time</div>
+                  </th>
+                  <th style="width: 25%;">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">Home Team</div>
+                  </th>
+                  <th style="width: 15%;">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">Visiting Team</div>
+                  </th>
+                  <th>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">Prediction</div>
+                  </th>
+              </tr>
+              {% for match in matches %}
+                  {% if match.get_league == league.name%}
+                      <tr>
+                        <td class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            {{ match.match_date }}
+                        </td>
+                        <td  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            {{ match.match_time }}
+                        </td>
+                        <td  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            {{ match.home_team.name }}
+                        </td>
+                        <td  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            {{ match.away_team.name }}
+                        </td>
+
+                        <td  class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            {% if match.get_prediction_name == "Home Win" %}
+                                {{ match.home_team.name }} ( {{ match.get_prediction_name }} )
+                            {% elif match.get_prediction_name == "Draw" %}
+                                Draw
+                            {% elif match.get_prediction_name == "Away Win" %}
+                                {{ match.away_team.name }} ( {{ match.get_prediction_name }} )
+                            {% else %}
+                                Undecided
+                            {% endif %}
+                        </td>
+                      </tr>
+                  {% endif %}
+              {% endfor %}
+            </table>
+      </div>
+    </div>
+  </div>
+</div>
