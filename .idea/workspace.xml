@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44aef343-586e-4278-a661-3157cc44a6f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/models.py" afterPath="$PROJECT_DIR$/BetProsApp/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" afterPath="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,11 +64,9 @@
       <file leaf-file-name="prediction_table.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="28">
+              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -78,14 +77,14 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BetProsApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="25" />
+            <state relative-caret-position="336">
+              <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#132#469#0" expanded="false" />
                 <element signature="e#505#907#0" expanded="false" />
                 <element signature="e#941#1467#0" expanded="false" />
-                <element signature="e#2244#2891#0" expanded="false" />
+                <element signature="e#2245#2892#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -150,8 +149,8 @@
         <option value="$PROJECT_DIR$/BetPros/wsgi.py" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/plain_page.html" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/login.html" />
-        <option value="$PROJECT_DIR$/BetProsApp/models.py" />
         <option value="$PROJECT_DIR$/BetProsApp/admin.py" />
+        <option value="$PROJECT_DIR$/BetProsApp/models.py" />
         <option value="$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html" />
       </list>
     </option>
@@ -379,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506099078141</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added League lenght cheque get_league_length">
+      <created>1506101953620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506101953620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -479,7 +485,8 @@
     <MESSAGE value="Changed home title" />
     <MESSAGE value="Changed about message on login page." />
     <MESSAGE value="Changed away team and home team names display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed away team and home team names display" />
+    <MESSAGE value="Added League lenght cheque get_league_length" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added League lenght cheque get_league_length" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,25 +992,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="25" />
+        <state relative-caret-position="336">
+          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#132#469#0" expanded="false" />
             <element signature="e#505#907#0" expanded="false" />
             <element signature="e#941#1467#0" expanded="false" />
-            <element signature="e#2244#2891#0" expanded="false" />
+            <element signature="e#2245#2892#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BetProsApp/templates/includes/prediction_table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="28">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>

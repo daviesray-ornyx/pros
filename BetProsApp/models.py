@@ -61,7 +61,7 @@ class League(models.Model):
         return self.name
 
     def get_league_length(self):
-        return Club.objects.filter(league=self).count()
+        return Match.objects.filter(league=self).count()
 
     class Meta:
         verbose_name = 'League'
