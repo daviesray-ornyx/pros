@@ -143,7 +143,8 @@ class MatchListJSONView(View):
         synced = True
         message = ''
         match_count = 0
-        match_list = None
+        match_list = Match.objects.none().values('league', 'home_team', 'home_team_odds', 'away_team_odds',
+                                                 'match_date', 'match_time', 'prediction', 'result', 'complete')
 
         raw_sync_datetime  = request.GET.get('last_sync_datetime', None)  # Please remember to deserialize date
         local_timezone = tz.tzlocal()
@@ -154,7 +155,8 @@ class MatchListJSONView(View):
             """Sync is required"""
             start_date = datetime.now()-timedelta(days=1)
             end_date = datetime.now() + timedelta(days=2)
-            match_list = Match.objects.filter(match_date__range=(start_date, end_date), complete=False)
+            match_list = Match.objects.filter(match_date__range=(start_date, end_date), complete=False).values('league', 'home_team', 'home_team_odds', 'away_team', 'away_team_odds',
+                                       'match_date', 'match_time', 'prediction', 'result', 'complete')
             match_count = match_list.count()
             message = 'Match list synced'
             pass
@@ -164,12 +166,16 @@ class MatchListJSONView(View):
             message = 'Match list up to date'
             pass
 
+        json_match_list = []
+        for match in match_list:
+            json_match_list.append(match)
+
         context = {
             'synced': synced,
             'message': message,
             'match_count': match_count,
-            'match_list': serializers.serialize('json', match_list if match_list is not None else Match.objects.none()),
+            'json_match_list': serializers.serialize('json', json_match_list),
             'last_sync_datetime': datetime.now(tz=local_timezone).strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
         }
 
-        return JsonResponse(json.dumps(context), safe=False, status=200)
+        return JsonResponse(json.dumps(context), safe=True, status=200)

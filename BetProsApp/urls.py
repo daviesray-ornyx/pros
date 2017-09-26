@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.conf.urls import url, include
 from BetProsApp.views import *
 
 urlpatterns = [
@@ -12,5 +12,5 @@ urlpatterns = [
     url(r'^login', LoginView.as_view(), name='login'),
     url(r'^logout', LogoutView.as_view(), name='logout'),
     url(r'^register', RegistrationView.as_view(), name='registration'),
-    url(r'^json_matchlist', MatchListJSONView.as_view(), name='json_matchlist'),
+    url(r'^api/', include("BetProsApp.api.urls", namespace='urls-api')),
 ]
