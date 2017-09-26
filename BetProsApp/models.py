@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
 
 from django.db import models
+from  datetime import datetime
 
 # Create your models here.
 
@@ -109,6 +110,8 @@ class Match(models.Model):
     prediction = models.ForeignKey(MatchResult, verbose_name='Prediction', blank=True, null=True, related_name='+')
     result = models.ForeignKey(MatchResult, verbose_name='Result', blank=True, null=True, related_name='+')
     complete = models.BooleanField(verbose_name='Complete', blank=False, null=False, default=False)
+    created_at = models.DateTimeField(verbose_name='Created at', auto_now_add=True)
+    updated_at = models.DateTimeField(verbose_name='Update at', auto_now=True)
 
     def __str__(self):
         return self.get_prediction_name()

@@ -7,6 +7,10 @@ from django.contrib.auth.models import User
 from django.views.generic import View
 from django.core import serializers
 
+from datetime import datetime, time, timedelta
+from dateutil import parser as DateUtilParser, tz
+from django.utils import timezone
+
 from BetProsApp.models import *
 
 import json
@@ -122,4 +126,50 @@ def gentella_html(request):
     return HttpResponse(template.render(context, request))
 
 
+class MatchListJSONView(View):
 
+    def sync_required(self, last_create_datetime, last_update_datetime, last_sync_datetime):
+        if last_sync_datetime is None:
+            """No sync datetime value passed"""
+            return True
+        """Sync datetime value passed"""
+        if last_sync_datetime > last_create_datetime and last_sync_datetime > last_update_datetime:
+            """Update not required"""
+            return False
+        else:
+            return True
+
+    def get(self, request):
+        synced = True
+        message = ''
+        match_count = 0
+        match_list = None
+
+        raw_sync_datetime  = request.GET.get('last_sync_datetime', None)  # Please remember to deserialize date
+        local_timezone = tz.tzlocal()
+        last_sync_datetime = None if raw_sync_datetime is None else datetime.strptime(raw_sync_datetime, '%Y-%m-%d %H:%M:%S.%f').replace(tzinfo=local_timezone)
+        last_created_match = Match.objects.latest('created_at')
+        last_updated_match = Match.objects.latest('updated_at')
+        if self.sync_required(last_created_match.created_at, last_updated_match.updated_at, last_sync_datetime):
+            """Sync is required"""
+            start_date = datetime.now()-timedelta(days=1)
+            end_date = datetime.now() + timedelta(days=2)
+            match_list = Match.objects.filter(match_date__range=(start_date, end_date), complete=False)
+            match_count = match_list.count()
+            message = 'Match list synced'
+            pass
+        else:
+            """Sync is not required"""
+            synced = False
+            message = 'Match list up to date'
+            pass
+
+        context = {
+            'synced': synced,
+            'message': message,
+            'match_count': match_count,
+            'match_list': serializers.serialize('json', match_list if match_list is not None else Match.objects.none()),
+            'last_sync_datetime': datetime.now(tz=local_timezone).strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
+        }
+
+        return JsonResponse(json.dumps(context), safe=False, status=200)
