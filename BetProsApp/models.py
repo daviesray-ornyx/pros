@@ -70,6 +70,7 @@ class League(models.Model):
 
 
 class Club(models.Model):
+    icon = models.CharField(verbose_name='Icon', max_length=250, blank=True, null=True, default='')
     name = models.CharField(verbose_name='Name', max_length=250, blank=False, null=False)
     short_name = models.CharField(verbose_name='Short name', max_length=150, blank=True, null=True)
     league = models.ForeignKey(League, verbose_name='League', blank=False, null=False)
@@ -127,6 +128,12 @@ class Match(models.Model):
 
     def get_prediction_name(self):
         return self.prediction.name
+
+    def get_home_team_icon(self):
+        return self.home_team.icon
+
+    def get_away_team_icon(self):
+        return self.away_team.icon
 
     class Meta:
         verbose_name = 'Match'

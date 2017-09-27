@@ -36,7 +36,7 @@ admin.site.register(League, LeagueAdmin)
 
 
 class ClubAdmin(admin.ModelAdmin):
-    list_display = ('name', 'short_name', 'league', 'stadium')
+    list_display = ('name', 'short_name', 'icon', 'league', 'stadium')
     search_fields = ('name', 'short_name', 'league', 'stadium')
 
 
@@ -52,8 +52,8 @@ admin.site.register(MatchResult, MatchResultAdmin)
 
 
 class MatchAdmin(admin.ModelAdmin):
-    list_display = ('league', 'get_home_team_name', 'home_team_odds', 'get_away_team_name', 'away_team_odds', 'match_date', 'match_time',
-                    'prediction', 'result')
+    list_display = ('league', 'get_home_team_name', 'get_home_team_icon', 'home_team_odds', 'get_away_team_name',
+                    'get_away_team_icon', 'away_team_odds', 'match_date', 'match_time', 'prediction', 'result')
     search_fields = ('league', 'match_date')
 
 
