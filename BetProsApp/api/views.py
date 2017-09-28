@@ -2,7 +2,9 @@ from __future__ import unicode_literals
 from django.db.models import Q
 from rest_framework import status
 
-from rest_framework.generics import (ListAPIView, CreateAPIView, RetrieveUpdateDestroyAPIView)
+from rest_framework.response import Response
+
+from rest_framework.generics import (ListAPIView, RetrieveAPIView, CreateAPIView, RetrieveUpdateDestroyAPIView)
 from rest_framework.views import APIView
 
 from BetProsApp.api.serializers import *
@@ -38,3 +40,16 @@ class MatchListAPIView(ListAPIView):
         end_date = datetime.now() + timedelta(days=2)
         queryset = Match.objects.filter(match_date__range=(start_date, end_date), complete=False)
         return queryset
+
+
+class BettingTipListAPIView(ListAPIView):
+    serializer_class = BettingTipSerializer
+    """
+        Retrieves the latest Betting Tip
+    """
+
+    def get_queryset(self, *args, **kwargs):
+        latest_betting_tip = BettingTip.objects.latest('created_at')
+        queryset = BettingTip.objects.filter(pk=latest_betting_tip.pk)
+        return queryset
+

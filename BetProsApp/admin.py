@@ -58,3 +58,11 @@ class MatchAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Match, MatchAdmin)
+
+
+class BettingTipAdmin(admin.ModelAdmin):
+    list_display = ('title', 'message', 'date_scheduled', 'created_at', 'updated_at')
+    search_fields = ('title', 'message')
+
+
+admin.site.register(BettingTip, BettingTipAdmin)

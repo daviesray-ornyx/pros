@@ -140,4 +140,19 @@ class Match(models.Model):
         verbose_name_plural = 'Matches'
 
 
+class BettingTip(models.Model):
+    title = models.CharField(verbose_name='Title', max_length=250, blank=True, null=True, default='Betting Tip')
+    message = models.TextField(verbose_name='Message', blank=True, null=True, default='')
+    date_scheduled = models.DateTimeField(verbose_name='Date scheduled', blank=False, null=False, default=datetime.now)
+    created_at = models.DateTimeField(verbose_name='Created at', blank=True, null=True, auto_now_add=True)
+    updated_at = models.DateTimeField(verbose_name='Updated at', blank=True, null=True, auto_now=True)
+
+    def __str__(self):
+        return "{} - {}".format(self.title, self.message);
+
+    class Meta:
+        verbose_name = 'Betting tip'
+        verbose_name_plural = 'Betting tips'
+
+
 

@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer, StringRelatedField
 
-from BetProsApp.models import (Region, Country, Sport, League, Club, MatchResult, Match)
+from BetProsApp.models import (Region, Country, Sport, League, Club, MatchResult, Match, BettingTip)
 
 
 class RegionSerializer(ModelSerializer):
@@ -62,5 +62,12 @@ class MatchSerializer(ModelSerializer):
         model = Match
         fields = ['league', 'home_team', 'get_home_team_icon', 'get_away_team_icon', 'home_team_odds', 'away_team', 'away_team_odds', 'match_date', 'match_time',
                   'prediction', 'result', 'complete']
+
+
+class BettingTipSerializer(ModelSerializer):
+
+    class Meta:
+        model = BettingTip
+        fields = ['id', 'title', 'message', 'date_scheduled', 'created_at', 'updated_at']
 
 
